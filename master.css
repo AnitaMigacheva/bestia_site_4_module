@@ -1,0 +1,16 @@
+@import "reset.css";
+@import "fonts.css";
+@import "header_menu.css";
+:root {
+  --gray: #949494;
+}
+
+body {
+  font-family: 'Neue Machina', sans-serif;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
