@@ -15,7 +15,7 @@ header {
 }
 .burger::after, .burger::before {
   position: absolute;
-  background: white;
+  background: lightGray;
   content: '';
   width: 24px;
   height: 2px;

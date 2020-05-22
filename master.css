@@ -1,8 +1,9 @@
 @import "reset.css";
 @import "fonts.css";
 @import "header_menu.css";
+
 :root {
-  --gray: #949494;
+  --lightGray: #D4D4D4;
 }
 
 body {
