@@ -48,7 +48,7 @@ header {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
+    text-transform: uppercase;
 }
 .menu-open {
   visibility: visible;
