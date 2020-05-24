@@ -4,15 +4,19 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .header_top_icons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  z-index: 3;
 }
 .header_top_icons_right {
   display: flex;
+  justify-content: space-between;
+  width: 12%;
 }
 .burger {
   position: relative;
@@ -25,7 +29,7 @@ header {
 .burger::after,
 .burger::before {
   position: absolute;
-  background-color: extraLightGray;
+  background-color: lightGray;
   content: '';
   width: 24px;
   height: 2px;
@@ -63,15 +67,14 @@ header {
 }
 .menu-open {
   visibility: visible;
-  background-color: extraLightGray;
+  background-color: lightGray;
 }
 .menu-open ul {
   z-index: 1;
-  width: 75.83333%;
-  margin-left: 4.16667%;
-  font-size: 9.028vw;
-  line-height: 1;
-  letter-spacing: -.05em;
+  width: 76%;
+  margin-left: 4%;
+  font-size: 8.8vw;
+  line-height: 0.9;
   margin-bottom: 5.2vw;
 }
 .menu-open ul li a {
