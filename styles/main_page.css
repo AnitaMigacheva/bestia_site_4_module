@@ -1,7 +1,6 @@
 body {
-  background: black;
+  background: #0F0F0F;
 }
-
 .header_img {
  background: url(../img/header-main.jpg) no-repeat center bottom;
  width: 100vw;
@@ -20,7 +19,7 @@ body {
 }
 .header_info .bestia {
   font-size: 7vw;
-  color: lightGray;
+  color: white;
   position: relative;
 }
 .bestia_description {
@@ -36,4 +35,92 @@ body {
   position: absolute;
   top: 50vh;
   left: 20vw;
+}
+
+
+/* ---------------------------ITEMS MENU-------------------------------- */
+
+.items_menu {
+  padding-top: 3vw;
+}
+.items_menu_grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 5fr 1fr 1fr 5fr 1fr;
+  gap: 2vw 2vw;
+  grid-template-areas: ". second_item ." "first_item second_item third_item" "first_item bestia_logo_feature third_item" "fourth_item bestia_logo_feature sixth_item" "fourth_item fifth_item sixth_item" ". fifth_item .";
+}
+.items_menu_grid_container div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bestia_logo_feature {
+  grid-area: bestia_logo_feature;
+  text-align: center;
+}
+.items_menu_grid_container .bestia_logo_feature img {
+  grid-area: bestia_logo_feature;
+  object-fit:  none;
+  width: 20%;
+  height: auto;
+  text-align: center;
+}
+.bestia_logo_feature span {
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  color: white;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  line-height: 120%;
+}
+.first_item {
+  grid-area: first_item;
+}
+.second_item {
+  grid-area: second_item;
+}
+.third_item {
+  grid-area: third_item;
+}
+.fourth_item {
+  grid-area: fourth_item;
+}
+.fifth_item {
+  grid-area: fifth_item;
+}
+.sixth_item {
+  grid-area: sixth_item;
+}
+
+
+/* ---------------------------ABOUT ANIMALS-------------------------------- */
+
+.about_animals {
+  height: 90vh;
+  /* background: url(../img/animals.png) no-repeat center; */
+  text-align: center;
+  padding-top: 3vw;
+  position: relative;
+}
+.about_animals img {
+  position: absolute;
+  width: 120vw;
+  text-align: center;
+  left: -90%;
+    position: absolute;
+    width: 200vw;
+    text-align: center;
+    height: auto;
+    z-index: -1;
+}
+.about_animals span {
+  font-size: 70px;
+  color: white;
+  letter-spacing: 0.01%;
+  padding-bottom: 2vw;
+}
+.about_animals .primary_btn_light {
+  text-align: center;
 }

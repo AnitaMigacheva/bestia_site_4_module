@@ -1,5 +1,5 @@
 header {
-  height: 60px;
+  height: 100vh;
   padding: 0 16px;
   display: flex;
   align-items: center;
@@ -30,7 +30,7 @@ header {
 .burger::after,
 .burger::before {
   position: absolute;
-  background-color: lightGray;
+  background-color: white;
   content: '';
   width: 24px;
   height: 2px;
@@ -68,7 +68,7 @@ header {
 }
 .menu-open {
   visibility: visible;
-  background-color: lightGray;
+  background-color: white;
 }
 .menu-open ul {
   z-index: 1;
