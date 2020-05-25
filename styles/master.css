@@ -62,4 +62,6 @@ body {
 }
 .secondary_btn_light::after {
   content: '';
+  background: url(../img/icn-arrow.svg) no-repeat top right;
+
 }
