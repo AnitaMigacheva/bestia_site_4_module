@@ -6,16 +6,34 @@ body {
  background: url(../img/header-main.jpg) no-repeat center bottom;
  width: 100vw;
  height: 100vh;
+ background-size: cover;
+ position: absolute;
+ z-index: -1;
 }
 .all_you_pet_need_circle {
   position: absolute;
 }
-.header_img_info .bestia {
+.header_info {
+  padding-top: 60vh;
+  position: relative;
+  width: 100%;
+}
+.header_info .bestia {
   font-size: 7vw;
   color: lightGray;
+  position: relative;
 }
 .bestia_description {
-  font-size: 1vw;
-  color: lightGray;
+  font-size: 1.2vw;
+  color: white;
   text-transform: uppercase;
+  width: fit-content;
+  margin-left: auto;
+  display: block;
+  letter-spacing: 0.1px;
+}
+.all_you_pet_need_circle {
+  position: absolute;
+  top: 50vh;
+  left: 20vw;
 }

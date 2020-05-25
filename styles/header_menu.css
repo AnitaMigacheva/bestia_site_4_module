@@ -12,6 +12,7 @@ header {
   justify-content: space-between;
   width: 100%;
   z-index: 3;
+  padding-top: 2vh;
 }
 .header_top_icons_right {
   display: flex;
