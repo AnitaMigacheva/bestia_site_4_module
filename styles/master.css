@@ -3,7 +3,9 @@
 @import "header_menu.css";
 
 :root {
-  --lightGray: #F0F0F0;
+  --lightGray: #D8D8D8;
+  --red: #D30000;
+  --gray: #4A4A4A;
 }
 body {
   height: 100vh;
@@ -22,9 +24,42 @@ body {
   font-weight: bold;
   font-size: 14px;
   color: white;
-  letter-spacing: 0.6px;
-  fill: none;
+  letter-spacing: 0.1em;
   padding: 2em;
+  margin: 0 auto;
   width: 300px;
   border: 1px solid white;
+}
+.primary_btn_light:hover {
+  font-weight: bold;
+  transition: 300ms ease all;
+  font-size: 14px;
+  background-color: white;
+  color: #0F0F0F;
+  letter-spacing: 0.1em;
+  padding: 2em;
+  margin: 0 auto;
+  width: 300px;
+  border: 1px solid white;
+}
+.primary_btn_light:active {
+  font-weight: bold;
+  transition: 400ms ease all;
+  font-size: 14px;
+  background-color: lightGray;
+  color: #0F0F0F;
+  letter-spacing: 0.1em;
+  padding: 2em;
+  margin: 0 auto;
+  width: 300px;
+  border: 1px solid white;
+}
+.secondary_btn_light {
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 0.1em;
+}
+.secondary_btn_light::after {
+  content: '';
 }
