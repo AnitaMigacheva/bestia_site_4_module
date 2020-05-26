@@ -8,9 +8,9 @@
   --gray: #4A4A4A;
 }
 body {
-  height: 100vh;
   width: 100%;
   font-family: 'Neue Machina', sans-serif;
+  overflow-x: hidden;
 }
 * {
   -webkit-font-smoothing: antialiased;
@@ -20,6 +20,20 @@ body {
 .wrapper {
   padding: 0 10%;
 }
+
+h2 {
+  font-size: 70px;
+}
+h3 {
+  font-size: 50px;
+}
+h4 {
+  font-size: 22px;
+}
+
+
+/* ------------------BUTTONS AND TAGS----------------- */
+
 .primary_btn_light {
   font-weight: bold;
   font-size: 14px;
@@ -27,7 +41,7 @@ body {
   letter-spacing: 0.1em;
   padding: 2em;
   margin: 0 auto;
-  width: 300px;
+  width: auto;
   border: 1px solid white;
 }
 .primary_btn_light:hover {
@@ -38,6 +52,7 @@ body {
   color: #0F0F0F;
   letter-spacing: 0.1em;
   padding: 2em;
+  cursor: pointer;
   margin: 0 auto;
   width: 300px;
   border: 1px solid white;
@@ -59,9 +74,18 @@ body {
   font-size: 14px;
   color: white;
   letter-spacing: 0.1em;
+  position: relative;
 }
 .secondary_btn_light::after {
-  content: '';
-  background: url(../img/icn-arrow.svg) no-repeat top right;
-
+  content: url(../img/icn-arrow.svg);
+  position: absolute;
+  left: 8em;
+}
+.secondary_btn_light:hover::after {
+  content: url(../img/icn-arrow.svg);
+  position: absolute;
+  left: 9em;
+}
+.secondary_btn_light:hover {
+  cursor: pointer;
 }
