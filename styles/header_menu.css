@@ -63,7 +63,7 @@ header {
   display: flex;
   align-items: flex-end;
   text-transform: uppercase;
-  z-index: 5;
+  z-index: 2;
 }
 .menu-open {
   visibility: visible;
