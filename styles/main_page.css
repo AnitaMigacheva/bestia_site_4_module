@@ -98,8 +98,8 @@ body {
   height: 90vh;
   /* background: url(../img/animals.png) no-repeat center; */
   text-align: center;
-  padding-top: 6vw;
-  padding-bottom 6vw;
+  margin-top: 6vw;
+  padding-bottom: 14vw;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -135,6 +135,7 @@ body {
 }
 .big_items_slider {
   position: relative;
+  margin-bottom: 12vw;
 }
 .big_items_slider p {
   margin-left: 8vw;
