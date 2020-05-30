@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "fonts.css";
 @import "header_menu.css";
+@import "footer.css";
 
 :root {
   --lightGray: #D8D8D8;
