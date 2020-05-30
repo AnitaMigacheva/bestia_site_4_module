@@ -9,8 +9,8 @@
     <style>
       /* Set the size of the div element that contains the map */
      #map {
-       height: 400px;  /* The height is 400 pixels */
-       width: 100%;  /* The width is the width of the web page */
+       height: 60vh;  /* The height is 400 pixels */
+       width: 70%;  /* The width is the width of the web page */
       }
    </style>
   </head>
@@ -88,37 +88,54 @@
       </section>
 
       <section class="banner_lecture">
-       <img src="img/banner-lecture.jpg" alt="" class="banner">
-       <span>КАК УХАЖИВАТЬ<br>ЗА ЕДИНОРОГОМ?</span>
-       <img src="img/logo-lecture.svg" alt="">
-       <div class="secondary_btn_light">
-         ПОДРОБНЕЕ
-       </div>
+        <div class="banner_lecture_text">
+           <span>КАК УХАЖИВАТЬ<br>ЗА ЕДИНОРОГОМ?</span>
+           <img src="img/logo-lecture.svg" alt="">
+           <div class="secondary_btn_light">
+           ПОДРОБНЕЕ
+           </div>
+        </div>
       </section>
 
       <section class="contacts">
         <h3>КАК НАС НАЙТИ</h3>
-        <div id="map"></div>
-        <span>Цветной&nbsp;бульвар,<br>дом&nbsp;4,<br>Москва</span>
-        <div class="working_hours">
-          <span class="working_hours_text">Время работы</span>
-          <span class="working_hours_time">10:00 - 22:00</span>
-          <div class="primary_btn_light">
-            ПОДРОБНЕЕ
+        <div class="map_and_working_hours">
+          <div id="map"></div>
+          <div class="adress_and_working_hours">
+            <span class="adress">
+              Цветной&nbsp;бульвар,<br>дом&nbsp;4,<br>Москва
+            </span>
+            <div class="working_hours">
+              <span class="working_hours_text">Время работы</span>
+              <span class="working_hours_time">10:00 - 22:00</span>
+            </div>
           </div>
         </div>
       </section>
 
       <footer>
-        <div class="">
-          <span>+7 (916) 333-85-85</span>
+        <div class="footer_main_info">
+          <div class="">
+            <span>+7 (916) 333-85-85</span>
+            <span>bestia@gmail.com</span>
+            <span>Москва, Цветной бульвар, 4</span>
+          </div>
+          <div class="">
+           <img src="img/logo-bestia.svg" alt="">
+           <div class="social_icons">
+             <img src="img/icn-telegram.svg" alt="">
+              <img src="img/icn-fb.svg" alt="">
+              <img src="img/icn-inst.svg" alt="">
+             <img src="img/icn-youtube.svg" alt="">
+           </div>
+          </div>
+          <div class="">
+            <span>Вакансии</span>
+            <span>Популярные вопросы</span>
+            <span>Конфедитиальность</span>
+          </div>
         </div>
-        <div class="">
-
-        </div>
-        <div class="">
-
-        </div>
+        <span>© 2020</span>
       </footer>
 
     <!--The div element for the map -->
