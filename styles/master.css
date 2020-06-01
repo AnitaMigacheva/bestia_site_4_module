@@ -5,7 +5,8 @@
 
 :root {
   --lightGray: #D8D8D8;
-  --red: #D30000;
+  --extralightGray: #DCDCDC;
+  --accentRed: #C50000;
   --gray: #4A4A4A;
 }
 body {

@@ -74,21 +74,60 @@ body {
 }
 .first_item {
   grid-area: first_item;
+  background: url(../img/menu-bottle.jpg) no-repeat center top;
+  background-color: var(--extralightGray);
+  background-size: auto;
 }
 .second_item {
   grid-area: second_item;
+  background: url(../img/menu-bag.jpg) no-repeat center top;
+  background-color: var(--extralightGray);
+  background-size: auto;
 }
 .third_item {
   grid-area: third_item;
+  background: url(../img/menu-collar.jpg) no-repeat center top;
+  background-color: var(--extralightGray);
+  background-size: auto;
 }
 .fourth_item {
   grid-area: fourth_item;
+  background: url(../img/menu-toy.jpg) no-repeat center top;
+  background-color: var(--extralightGray);
+  background-size: auto;
 }
 .fifth_item {
   grid-area: fifth_item;
+  background: url(../img/menu-house.jpg) no-repeat center top;
+  background-color: var(--extralightGray);
+  background-size: auto;
 }
 .sixth_item {
   grid-area: sixth_item;
+  background: url(../img/menu-food.jpg) no-repeat center top;
+  background-color: var(--extralightGray);
+  background-size: auto;
+}
+div.items_menu_description {
+  height: 100%;
+  background: none;
+  color: white;
+  opacity: 0;
+}
+div.items_menu_description:hover {
+  color: white;
+  background: none;
+  opacity: 1;
+}
+.items_menu_grid_container div:hover {
+  background-color: var(--accentRed);
+  background-blend-mode: multiply;
+  transition: all 200ms ease;
+}
+.items_menu_grid_container div:after:hover {
+  background-color: var(--accentRed);
+  background-blend-mode: multiply;
+  transition: all 200ms ease;
 }
 
 
