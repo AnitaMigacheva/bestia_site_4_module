@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding: 0 16px;
+  padding: 0 10%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -19,9 +19,45 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.header_top_icons_right img:not(:first-child) {
-  padding-left: 12%;
+.header_top_icons_right div:not(:first-child) {
+  margin-left: 10%;
 }
+.icn_search  {
+  background: url(../img/icn-search.svg) no-repeat;
+  height: 2em;
+  width: 4em;
+}
+.icn_bag {
+  background: url(../img/icn-bag.svg) no-repeat;
+  height: 2em;
+  width: 4em;
+}
+.logo_bestia {
+  background: url(../img/logo-bestia.svg) no-repeat;
+  height: 2em;
+  width: 10em;
+}
+.burger-open + .header_top_icons_right .icn_search  {
+  transition: 200ms all ease;
+  background: url(../img/icn-search-black.svg) no-repeat;
+  height: 2em;
+  width: 4em;
+}
+.burger-open + .header_top_icons_right .icn_bag {
+  transition: 200ms all ease;
+  background: url(../img/icn-bag-black.svg) no-repeat;
+  height: 2em;
+  width: 4em;
+}
+.burger-open + .header_top_icons_right .logo_bestia {
+  transition: 200ms all ease;
+  background: url(../img/logo-bestia-black.svg) no-repeat;
+  height: 2em;
+  width: 10em;
+}
+
+
+
 .burger {
   position: relative;
   width: 24px;
@@ -46,12 +82,13 @@ header {
   top: 18px;
 }
 .burger-open::before {
+  background: black;
   transform: rotate(45deg) translate(5px, 4px);
 }
 .burger-open::after {
+  background: black;
   transform: rotate(-45deg) translate(4px, -4px);
 }
-
 
 .menu {
   visibility: hidden;
@@ -82,7 +119,7 @@ header {
   text-decoration: none;
 }
 .menu-open ul li a:hover::before {
-  content: '-';
+  content: '—';
   color: black;
 }
 .menu-open ul li a:hover {
