@@ -71,6 +71,43 @@ h4 {
   width: 300px;
   border: 1px solid white;
 }
+
+.primary_btn_dark {
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+  letter-spacing: 0.1em;
+  padding: 2em;
+  margin: 0 auto;
+  width: auto;
+  border: 1px solid black;
+}
+.primary_btn_dark:hover {
+  font-weight: bold;
+  transition: 300ms ease all;
+  font-size: 14px;
+  background-color: black;
+  color: black;
+  letter-spacing: 0.1em;
+  padding: 2em;
+  cursor: pointer;
+  margin: 0 auto;
+  width: 300px;
+  border: 1px solid black;
+}
+.primary_btn_dark:active {
+  font-weight: bold;
+  transition: 400ms ease all;
+  font-size: 14px;
+  background-color: lightGray;
+  color: black;
+  letter-spacing: 0.1em;
+  padding: 2em;
+  margin: 0 auto;
+  width: 300px;
+  border: 1px solid black;
+}
+
 .secondary_btn_light {
   font-weight: bold;
   font-size: 14px;
