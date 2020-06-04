@@ -27,7 +27,7 @@ body {
   width: fit-content;
   margin-left: auto;
   display: block;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
 }
 .all_you_pet_need_circle {
   position: absolute;
@@ -43,12 +43,16 @@ body {
 }
 .items_menu_grid_container {
   display: grid;
-  table-layout: fixed;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 5fr 1fr 1fr 5fr 1fr;
   gap: 2vw 2vw;
   grid-template-areas: ". second_item ." "first_item second_item third_item" "first_item bestia_logo_feature third_item" "fourth_item bestia_logo_feature sixth_item" "fourth_item fifth_item sixth_item" ". fifth_item .";
+  max-height: 96vh;
 }
+/* .items_menu_grid_container div {
+  min-height: 30vh;
+  max-height: 36vh;
+} */
 .bestia_logo_feature {
   grid-area: bestia_logo_feature;
   text-align: center;
@@ -67,12 +71,13 @@ body {
   letter-spacing: 0.6px;
   text-transform: uppercase;
   line-height: 120%;
+  padding-top: 4%;
 }
 .first_item {
   grid-area: first_item;
   background: url(../img/menu-bottle.jpg) no-repeat center bottom;
   background-color: var(--extralightGray);
-  background-size: auto;
+  background-size: cover;
 }
 .second_item {
   grid-area: second_item;
@@ -109,10 +114,8 @@ body {
   background-blend-mode: multiply;
   transition: all 200ms ease;
 }
-.items_menu_grid_container div:after:hover {
-  background-color: var(--accentRed);
-  background-blend-mode: multiply;
-  transition: all 200ms ease;
+div.bestia_logo_feature:hover {
+  background: none;
 }
 div.items_menu_description {
   height: 100%;
@@ -224,18 +227,20 @@ div.items_menu_description:hover {
 .banner_lecture {
   background-image: url(../img/banner-lecture.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-color: #BC0000;
-  padding-top: 7vw;
+  display: flex;
+  flex-direction: column;
   width: 100vw;
-  height: 60vh;
+  height: 50vh;
 }
 .banner_lecture_text {
   display: flex;
+  width: 100%;
   align-content: flex-end;
   justify-content: space-between;
-  padding: 0 10%;
+  padding: 0 10% 4%;
 }
 .banner_lecture span {
   font-size: 28px;
@@ -244,11 +249,9 @@ div.items_menu_description:hover {
   letter-spacing: 0.02em;
   align-self: flex-end;
 }
-.logo_lecture {
-  font-size: 24px;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 0.02em;
+.banner_lecture img {
+  display: block;
+  margin: auto;
 }
 .banner_lecture .secondary_btn_light,
 .banner_lecture span {
@@ -256,41 +259,4 @@ div.items_menu_description:hover {
 }
 .secondary_btn_light {
   padding-right: 3em;
-}
-
-
-/* ---------------------------MAP------------------------------ */
-
-.contacts {
-  margin-top: 10vw;
-}
-.map_and_working_hours {
-  display: flex;
-  flex-direction: row;
-  color: white;
-}
-.adress_and_working_hours {
-  align-self: flex-end;
-  padding-left: 4vw;
-  display: flex;
-  flex-direction: column;
-}
-.adress_and_working_hours .adress {
-  font-size: 22px;
-}
-.contacts h3 {
-  color: white;
-  padding-left: 10%;
-  margin-bottom: 2vw;
-}
-.working_hours {
-  padding-top: 3vw;
-}
-.working_hours_text {
-  font-size: 16px;
-}
-.working_hours_time {
-  padding-top: 0.5em;
-  display: block;
-  font-size: 22px;
 }

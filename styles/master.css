@@ -2,6 +2,7 @@
 @import "fonts.css";
 @import "header_menu.css";
 @import "footer.css";
+@import "map.css";
 
 :root {
   --lightGray: #D8D8D8;
@@ -14,6 +15,10 @@ body {
   font-family: 'Neue Machina', sans-serif;
   overflow-x: hidden;
   background: #0F0F0F;
+  height: 100vh;
+}
+.noscroll {
+    position: fixed!important
 }
 * {
   -webkit-font-smoothing: antialiased;

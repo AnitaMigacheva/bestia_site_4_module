@@ -18,7 +18,8 @@
   display: flex;
   justify-content: space-between;
 }
-.header_top_icons_right div:not(:first-child) {
+.icn_bag,
+.logo_bestia {
   margin-left: 10%;
 }
 .icn_search  {
@@ -32,7 +33,7 @@
   width: 4em;
 }
 .logo_bestia {
-  background: url(../img/logo-bestia.svg) no-repeat;
+  background: url(../img/logo-bestia.svg) no-repeat center;
   height: 2em;
   width: 10em;
 }
@@ -50,7 +51,7 @@
 }
 .burger-open + .header_top_icons_right .logo_bestia {
   transition: 200ms all ease;
-  background: url(../img/logo-bestia-black.svg) no-repeat;
+  background: url(../img/logo-bestia-black.svg) no-repeat center;
   height: 2em;
   width: 10em;
 }

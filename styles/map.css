@@ -1,0 +1,37 @@
+#map {
+  height: 60vh;  /* The height is 400 pixels */
+  width: 70%;  /* The width is the width of the web page */
+}
+.contacts {
+  margin-top: 10vw;
+}
+.map_and_working_hours {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.adress_and_working_hours {
+  align-self: flex-end;
+  padding-left: 4vw;
+  display: flex;
+  flex-direction: column;
+}
+.adress_and_working_hours .adress {
+  font-size: 22px;
+}
+.contacts h3 {
+  color: white;
+  padding-left: 10%;
+  margin-bottom: 2vw;
+}
+.working_hours {
+  padding-top: 3vw;
+}
+.working_hours_text {
+  font-size: 16px;
+}
+.working_hours_time {
+  padding-top: 0.5em;
+  display: block;
+  font-size: 22px;
+}
