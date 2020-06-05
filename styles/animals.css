@@ -1,0 +1,9 @@
+.animal_description span,
+.animal_description p {
+  color: white;
+}
+
+span.subtitle {
+  color: var(--gray);
+  font-size: 0.8em;
+}

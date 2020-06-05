@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "fonts.css";
 @import "header_menu.css";
+@import "animals.css";
 @import "footer.css";
 @import "map.css";
 
@@ -8,7 +9,7 @@
   --lightGray: #D8D8D8;
   --extralightGray: #DCDCDC;
   --accentRed: #C50000;
-  --gray: #4A4A4A;
+  --gray: #797979;
 }
 body {
   width: 100%;
