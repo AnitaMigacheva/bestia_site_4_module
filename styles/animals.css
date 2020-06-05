@@ -2,8 +2,26 @@
 .animal_description p {
   color: white;
 }
-
 span.subtitle {
   color: var(--gray);
   font-size: 0.8em;
+}
+.animal_features {
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.animal_feature span:nth-child(even){
+  color: var(--gray);
+  font-size: 0.8em;
+  padding-top: 0.5em;
+}
+.animal_feature {
+  padding-top: 1em;
+  display: flex;
+}
+.animal_feature_text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
 }
