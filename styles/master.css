@@ -19,7 +19,7 @@ body {
   height: 100vh;
 }
 .noscroll {
-    position: fixed!important
+  position: fixed!important
 }
 * {
   -webkit-font-smoothing: antialiased;
@@ -29,7 +29,6 @@ body {
 .wrapper {
   padding: 0 10%;
 }
-
 h2 {
   font-size: 70px;
 }

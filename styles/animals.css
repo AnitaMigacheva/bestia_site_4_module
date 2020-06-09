@@ -1,6 +1,19 @@
+.animal_description {
+  width: 30%;
+  padding-left: 4%;
+}
 .animal_description span,
 .animal_description p {
   color: white;
+}
+span.care_level {
+  background: var(--lightGray);
+  border-radius: 50%;
+  color: black;
+  width: 1.5em;
+  height: 1.5em;
+  font-weight: bold;
+  text-align: center;
 }
 span.subtitle {
   color: var(--gray);
@@ -11,7 +24,7 @@ span.subtitle {
   display: flex;
   flex-direction: column;
 }
-.animal_feature span:nth-child(even){
+.animal_feature span:nth-child(even) {
   color: var(--gray);
   font-size: 0.8em;
   padding-top: 0.5em;
