@@ -1,6 +1,15 @@
+.find_animal,
+.find_animal_sec {
+  font-size: 70px;
+  color: white;
+  position: absolute;
+}
+.find_animal_sec {
+  top: 2em;
+}
 .animal_description {
   width: 30%;
-  padding-left: 4%;
+  padding-left: 6%;
 }
 .animal_description span,
 .animal_description p {
@@ -14,6 +23,7 @@ span.care_level {
   height: 1.5em;
   font-weight: bold;
   text-align: center;
+  padding-top: 0.2em;
 }
 span.subtitle {
   color: var(--gray);
@@ -38,8 +48,45 @@ span.subtitle {
   flex-direction: column;
   padding-left: 1em;
 }
-.circle,
 .cross {
   position: absolute;
-  margin-right: auto;
+  width: 332px;
+  height: 332px;
+  z-index: -1;
+  left: 24%;
+}
+.cross:hover {
+  background-color: var(--accentRed);
+}
+.cross::before,
+.cross::after {
+  position: absolute;
+  content: ' ';
+  height: 40%;
+  width: 120%;
+  background-color: #272727;
+}
+.cross::before {
+  transform: rotate(45deg);
+}
+.cross::after {
+  transform: rotate(-45deg);
+}
+.circle {
+  z-index: -1;
+  left: 20%;
+  position: absolute;
+  width: 23em;
+  height: 23em;
+  border-radius: 50%;
+  background-color: #272727;
+}
+.animals .circle:hover {
+  background-color: var(--accentRed);
+}
+h3 + p {
+  padding-top: 2em;
+}
+h3 {
+  margin-left: -1em;
 }
