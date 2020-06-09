@@ -38,3 +38,7 @@ span.subtitle {
   flex-direction: column;
   padding-left: 1em;
 }
+.circle,
+.cross {
+  position: absolute;
+}
