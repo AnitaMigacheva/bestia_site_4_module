@@ -41,4 +41,5 @@ span.subtitle {
 .circle,
 .cross {
   position: absolute;
+  margin-right: auto;
 }
