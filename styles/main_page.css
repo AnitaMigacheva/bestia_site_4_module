@@ -44,15 +44,11 @@ body {
 .items_menu_grid_container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 5fr 1fr 1fr 5fr 1fr;
+  grid-template-rows: 1fr 6fr 1fr 1fr 6fr 1fr;
   gap: 2vw 2vw;
   grid-template-areas: ". second_item ." "first_item second_item third_item" "first_item bestia_logo_feature third_item" "fourth_item bestia_logo_feature sixth_item" "fourth_item fifth_item sixth_item" ". fifth_item .";
-  max-height: 96vh;
+  max-height: 140vh;
 }
-/* .items_menu_grid_container div {
-  min-height: 30vh;
-  max-height: 36vh;
-} */
 .bestia_logo_feature {
   grid-area: bestia_logo_feature;
   text-align: center;
@@ -77,37 +73,37 @@ body {
   grid-area: first_item;
   background: url(../img/menu-bottle.jpg) no-repeat center bottom;
   background-color: var(--extralightGray);
-  background-size: cover;
+  background-size: 80%;
 }
 .second_item {
   grid-area: second_item;
-  background: url(../img/menu-bag.jpg) no-repeat center bottom;
+  background: url(../img/menu-bag.jpg) no-repeat center center;
   background-color: var(--extralightGray);
-  background-size: auto;
+  background-size: 110%;
 }
 .third_item {
   grid-area: third_item;
-  background: url(../img/menu-collar.jpg) no-repeat center bottom;
+  background: url(../img/menu-toy.jpg) no-repeat center center;
   background-color: var(--extralightGray);
-  background-size: auto;
+  background-size: 90%;
 }
 .fourth_item {
   grid-area: fourth_item;
-  background: url(../img/menu-toy.jpg) no-repeat center bottom;
+  background: url(../img/menu-food.jpg) no-repeat center center ;
   background-color: var(--extralightGray);
   background-size: auto;
 }
 .fifth_item {
   grid-area: fifth_item;
-  background: url(../img/menu-house.jpg) no-repeat center bottom;
+  background: url(../img/menu-house.jpg) no-repeat center center;
   background-color: var(--extralightGray);
-  background-size: auto;
+  background-size: 100%;
 }
 .sixth_item {
   grid-area: sixth_item;
-  background: url(../img/menu-food.jpg) no-repeat center bottom;
+  background: url(../img/menu-collar.jpg) no-repeat center top;
   background-color: var(--extralightGray);
-  background-size: auto;
+  background-size: 110%;
 }
 .items_menu_grid_container div:hover {
   background-color: var(--accentRed);
@@ -135,7 +131,7 @@ div.items_menu_description > span:first-child {
   letter-spacing: 0.04em;
 }
 div.items_menu_description > span:nth-child(2) {
-  padding-bottom: 20%;
+  padding-bottom: 36%;
 }
 div.items_menu_description:hover {
   color: white;
@@ -213,29 +209,45 @@ div.items_menu_description:hover {
   text-transform: uppercase;
   padding-bottom: 2vw;
 }
-.big_items_slider img {
-  position: absolute;
-  top: -5vw;
-  z-index: -1;
-  width: 48vw;
-  left: 20vw;
+.swiper-button-prev.swiper-button-white img,
+.swiper-button-next.swiper-button-white img {
+  width: auto;
+  display: block;
+}
+.swiper-button-prev.swiper-button-white img,
+.swiper-button-next.swiper-button-white img {
+  width: auto;
+  display: block;
 }
 
 
 /* -------------------------BANNER LECTURE-------------------------- */
 
 .banner_lecture {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+}
+.banner_lecture_bg {
   background-image: url(../img/banner-lecture.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: #BC0000;
+  position: absolute;
+  height: 50vh;
+    z-index: -2;
+    width: 100%;
+}
+.banner_lecture_text {
   display: flex;
   flex-direction: column;
   width: 100vw;
   height: 50vh;
 }
-.banner_lecture_text {
+.banner_lecture_text_bottom {
   display: flex;
   width: 100%;
   align-content: flex-end;
@@ -259,4 +271,7 @@ div.items_menu_description:hover {
 }
 .secondary_btn_light {
   padding-right: 3em;
+}
+.banner_lecture:hover .banner_lecture_bg {
+  filter: blur(10px);
 }

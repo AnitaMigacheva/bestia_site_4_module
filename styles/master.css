@@ -61,28 +61,15 @@ h4 {
   border: 1px solid white;
 }
 .primary_btn_light:hover {
-  font-weight: bold;
   transition: 300ms ease all;
-  font-size: 14px;
   background-color: white;
   color: #0F0F0F;
-  letter-spacing: 0.1em;
-  padding: 2em;
   cursor: pointer;
-  margin: 0 auto;
-  width: 300px;
   border: 1px solid white;
 }
 .primary_btn_light:active {
-  font-weight: bold;
-  transition: 400ms ease all;
   font-size: 14px;
   background-color: lightGray;
-  color: #0F0F0F;
-  letter-spacing: 0.1em;
-  padding: 2em;
-  margin: 0 auto;
-  width: 300px;
   border: 1px solid white;
 }
 
