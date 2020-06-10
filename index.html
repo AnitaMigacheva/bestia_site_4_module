@@ -40,7 +40,7 @@
      }
      .swiper-slide .text {
        font-size: 14px;
-       max-width: 400px;
+       max-width: 34%;
        line-height: 1.3;
      }
    </style>
@@ -164,12 +164,9 @@
       <section class="big_items_slider">
         <!-- Swiper -->
         <div class="swiper-container">
-          <!-- <div class="parallax-bg" style="background-image:url(img/slider-collar.jpg)" data-swiper-parallax="-23%"></div>
-          <div class="parallax-bg" style="background-image:url(img/slider-bag.jpg)" data-swiper-parallax="-23%"></div>
-          <div class="parallax-bg" style="background-image:url(img/slider-ball.jpg)" data-swiper-parallax="-23%"></div> -->
           <div class="swiper-wrapper">
 
-            <div class="swiper-slide" style="background: url(img/slider-collar.jpg) no-repeat center">
+            <div class="swiper-slide" style="background: url(img/slider-collar.jpg) no-repeat right center">
               <div class="title" data-swiper-parallax="-300"><h3>Ошейник</h3></div>
               <div class="text" data-swiper-parallax="-100">
                 <p>Ошейники из&nbsp;серии &laquo;Alpha&raquo; невероятно<br>мягкие, но&nbsp;при этом долговечные.<br>Основа выполнена из&nbsp;нейлоновой<br>тесьмы, а&nbsp;пряжки и&nbsp;кольца из&nbsp;разных<br>оттенков бронзы и&nbsp;меди.
@@ -179,16 +176,17 @@
 
             </div>
             <div class="swiper-slide" style="background: url(img/slider-bag.jpg) no-repeat center">
-              <div class="title" data-swiper-parallax="-300" data-swiper-parallax-opacity="0"><h3>ЧЕХОЛ WALK</h3></div>
+              <div class="title" data-swiper-parallax="-300" data-swiper-parallax-opacity="0"><h3>СУМОЧКА WALK W</h3></div>
               <div class="text" data-swiper-parallax="-100">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+                <p>Удобная сумка для выгула питомцев. Закрепить сумочку можно при помощи карабина к поясу или к ошейнику.
+                Выполнена она из прочной кожи, <br> а внутри замшевое покрытие.</p>
               </div>
               <div class="primary_btn_light">УЗНАТЬ БОЛЬШЕ</div>
             </div>
             <div class="swiper-slide" style="background: url(img/slider-ball.jpg) no-repeat center">
               <div class="title" data-swiper-parallax="-300"><h3>Мячик</h3></div>
               <div class="text" data-swiper-parallax="-100">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+                <p>Игрушка для крупных питомцев, изготовлена из искуственной замши, устойчивой к повреждениям. Игрушка поможет занять хищника <br> и сберечь мебель и одежду.</p>
               </div>
               <div class="primary_btn_light">УЗНАТЬ БОЛЬШЕ</div>
             </div>
@@ -209,7 +207,7 @@
         <div class="banner_lecture_bg"></div>
         <div class="banner_lecture_text">
           <img src="img/logo-lecture.svg" alt="">
-          <div class="banner_lecture_text_bottom">
+          <div class="banner_lecture_text_bott">
             <span>КАК УХАЖИВАТЬ<br>ЗА ЕДИНОРОГОМ?</span>
             <div class="secondary_btn_light">ПОДРОБНЕЕ</div>
           </div>
@@ -228,7 +226,6 @@
               <span class="working_hours_text">Время работы</span>
               <span class="working_hours_time">10:00 - 22:00</span>
             </div>
-            <div class="primary_btn_light">ПОСМОТРЕТЬ НА КАРТЕ</div>
           </div>
         </div>
       </section>
@@ -258,176 +255,176 @@
         <span class="bestia_copy">© 2020</span>
       </footer>
 
-
-          <script>
-          function initMap() {
-            var uluru = {lat: 55.768088, lng: 37.622726};
-            var map = new google.maps.Map(
-                document.getElementById('map'), {
-                  zoom: 15,
-                  center: uluru,
-                  styles: [
-                  {
-                    "elementType": "geometry",
-                    "stylers": [
-                      {
-                        "color": "#f5f5f5"
-                      }
-                    ]
-                  },
-                  {
-                    "elementType": "labels.icon",
-                    "stylers": [
-                      {
-                        "visibility": "off"
-                      }
-                    ]
-                  },
-                  {
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                      {
-                        "color": "#616161"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "administrative.land_parcel",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                      {
-                        "color": "#bdbdbd"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "poi",
-                    "elementType": "geometry",
-                    "stylers": [
-                      {
-                        "color": "#eeeeee"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "poi",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                      {
-                        "color": "#757575"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "poi.park",
-                    "elementType": "geometry",
-                    "stylers": [
-                      {
-                        "color": "#e5e5e5"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "poi.park",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                      {
-                        "color": "#9e9e9e"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "road",
-                    "elementType": "geometry",
-                    "stylers": [
-                      {
-                        "color": "#ffffff"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "road.arterial",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                      {
-                        "color": "#757575"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "road.highway",
-                    "elementType": "geometry",
-                    "stylers": [
-                      {
-                        "color": "#dadada"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "road.highway",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                      {
-                        "color": "#616161"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "road.local",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                      {
-                        "color": "#9e9e9e"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "transit.line",
-                    "elementType": "geometry",
-                    "stylers": [
-                      {
-                        "color": "#e5e5e5"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "transit.station",
-                    "elementType": "geometry",
-                    "stylers": [
-                      {
-                        "color": "#eeeeee"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "water",
-                    "elementType": "geometry",
-                    "stylers": [
-                      {
-                        "color": "#c9c9c9"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "water",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                      {
-                        "color": "#9e9e9e"
-                      }
-                    ]
-                  }
-            ]});
-            var marker = new google.maps.Marker({
-              position: uluru,
-              map: map,
-              icon: 'img/icn-map-pin.svg'
-            });
-          }
-          </script>
-          <script async defer
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEvzy3gF6LVwvwewI7oPFxa4jtaP3PabI&callback=initMap">
-          </script>
+    <!--The div element for the map -->
+    <script>
+    function initMap() {
+      var uluru = {lat: 55.768088, lng: 37.622726};
+      var map = new google.maps.Map(
+          document.getElementById('map'), {
+            zoom: 15,
+            center: uluru,
+            styles: [
+            {
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#f5f5f5"
+                }
+              ]
+            },
+            {
+              "elementType": "labels.icon",
+              "stylers": [
+                {
+                  "visibility": "off"
+                }
+              ]
+            },
+            {
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#616161"
+                }
+              ]
+            },
+            {
+              "featureType": "administrative.land_parcel",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#bdbdbd"
+                }
+              ]
+            },
+            {
+              "featureType": "poi",
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#eeeeee"
+                }
+              ]
+            },
+            {
+              "featureType": "poi",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#757575"
+                }
+              ]
+            },
+            {
+              "featureType": "poi.park",
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#e5e5e5"
+                }
+              ]
+            },
+            {
+              "featureType": "poi.park",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#9e9e9e"
+                }
+              ]
+            },
+            {
+              "featureType": "road",
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#ffffff"
+                }
+              ]
+            },
+            {
+              "featureType": "road.arterial",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#757575"
+                }
+              ]
+            },
+            {
+              "featureType": "road.highway",
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#dadada"
+                }
+              ]
+            },
+            {
+              "featureType": "road.highway",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#616161"
+                }
+              ]
+            },
+            {
+              "featureType": "road.local",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#9e9e9e"
+                }
+              ]
+            },
+            {
+              "featureType": "transit.line",
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#e5e5e5"
+                }
+              ]
+            },
+            {
+              "featureType": "transit.station",
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#eeeeee"
+                }
+              ]
+            },
+            {
+              "featureType": "water",
+              "elementType": "geometry",
+              "stylers": [
+                {
+                  "color": "#c9c9c9"
+                }
+              ]
+            },
+            {
+              "featureType": "water",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                {
+                  "color": "#9e9e9e"
+                }
+              ]
+            }
+      ]});
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map,
+        icon: 'img/icn-map-pin.svg'
+      });
+    }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEvzy3gF6LVwvwewI7oPFxa4jtaP3PabI&callback=initMap">
+    </script>
     <!-- Swiper JS -->
   <script src="swiper-master/package/js/swiper.min.js"></script>
 
