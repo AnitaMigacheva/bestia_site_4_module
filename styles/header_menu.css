@@ -10,9 +10,10 @@
   align-content: flex-end;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
+  width: 80%;
   z-index: 3;
   padding-top: 4vh;
+  position: fixed;
 }
 .header_top_icons_right {
   display: flex;

@@ -190,7 +190,10 @@ div.items_menu_description:hover {
 }
 .swiper-slide {
     width: 88%;
-} 
+}
+.swiper-wrapper {
+  padding-bottom: 8%;
+}
 .big_items_slider .primary_btn_light {
   margin-left: 8vw;
   display: inline-block;
@@ -218,7 +221,7 @@ div.items_menu_description:hover {
   width: auto;
   display: block;
 }
-.swiper-button-prev  {
+.swiper-button-prev {
   right: 40px;
 }
 
@@ -266,6 +269,7 @@ div.items_menu_description:hover {
 .banner_lecture img {
   display: block;
   margin: auto;
+  padding-top: 8%;
 }
 .banner_lecture .secondary_btn_light,
 .banner_lecture span {
