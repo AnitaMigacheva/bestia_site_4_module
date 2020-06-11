@@ -43,10 +43,18 @@
 .banner_popular_products {
   height: 50vh;
   width: 100%;
+  position: absolute;
+  overflow: hidden;
 }
-
-.banner_popular_products img {
-  height: 50vh;
-  width: 100%;
-  
+.banner_popular_products_images {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.banner_popular_products_images img:nth-child(2) {
+  position: absolute;
+  left: 14%;
+}
+.primary_btn_light {
+  text-align: center;
 }
