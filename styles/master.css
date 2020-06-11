@@ -134,7 +134,7 @@ h4 {
 
 .tag_light,
 .tag_dark {
-  padding: 0.5em 0.8em 0.6em 0.8em;
+  padding: 0.3em 0.8em 0.6em 0.8em;
   display: inline;
   background: none;
   width: fit-content;
@@ -147,4 +147,26 @@ h4 {
 .tag_light {
   border: 1px solid white;
   color: white;
+}
+.tag_dark:hover {
+  border: 1px solid black;
+  color: white;
+  background: black;
+}
+.tag_light:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+span.subtitle {
+  color: var(--gray);
+  font-size: 0.8em;
+}
+
+/* -----------------CARDS------------------ */
+.three_products_card {
+
+}
+.two_products_card {
+  
 }

@@ -4,7 +4,7 @@
   align-items: center;
   margin-bottom: 10%;
   height: 70vh;
-  padding-left: 8%;
+  justify-content: center;
   width: 100%;
 }
 .product_card img {
@@ -12,9 +12,11 @@
 }
 .product_card h3 {
   color: black;
+  padding: 2% 0 5%;
 }
 .product_card_description {
   width: 30%;
+  padding-left: 2%;
 }
 .similar_product {
   display: flex;
@@ -32,4 +34,24 @@
 .similar_products_cards {
   display: flex;
   justify-content: space-between;
+}
+.buy_price {
+  padding-top: 10%;
+}
+.buy_price span {
+  font-size: 1.5em;
+  padding-left: 4%;
+  font-weight: bold;
+}
+.product_card .weight {
+  padding-top: 8%;
+}
+.product_card_description p {
+  padding-top: 8%;
+}
+.usage {
+  padding-top: 2%;
+}
+.similar_products_cards {
+  padding-top:
 }
