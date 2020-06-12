@@ -49,17 +49,31 @@
   display: flex;
   align-items: center;
   margin-bottom: 8%;
+  overflow: hidden;
+  height: 53vh;
+
 }
 .banner_popular_products_images {
   display: flex;
   margin: auto;
-  
+  width: 80%;
+  align-items: center;
   flex-direction: row;
   position: relative;
+  justify-content: space-between;
 }
 .banner_popular_products_images img:nth-child(2) {
   position: absolute;
-  left: 14%;
+  left: 22%;
+  width: 18%;
+}
+.banner_popular_products_images img {
+  width: 80vh;
+  height: auto;
+}
+.banner_popular_products_images img:nth-child(1) {
+  padding-right: 12%;
+  align-self: center;
 }
 .primary_btn_light {
   text-align: center;

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/master.css">
+    <link rel="stylesheet" href="styles/products.css">
+    <link rel="stylesheet" href="swiper-master/package/css/swiper.min.css">
+    <title>BESTIA</title>
+  </head>
+  <header>
+    <div class="header_top_icons">
+      <div class="burger"></div>
+      <div class="header_top_icons_right">
+        <div class="icn_search"></div>
+        <div class="icn_bag"></div>
+        <a href="index.html" class="logo_bestia"></a>
+      </div>
+    </div>
+     <nav class="menu">
+       <ul>
+         <li><a href="goods.html">Зоотовары</a></li>
+         <li><a href="animals.html">Животные</a></li>
+         <li><a href="about.html">О нас</a></li>
+         <li><a href="contacts.html">Контакты</a></li>
+       </ul>
+       <div class="menu_info">
+         <div class="separator"></div>
+         <div class="top">
+          <span>товары для фантастических средневековых животных</span>
+         </div>
+         <div class="bottom">
+           <span class="menu_info_mail">bestia@gmail.com</span>
+           <span class="menu_info_phone">+7 (916) 333-85-85</span>
+        </div>
+       </div>
+     </nav>
+  </header>
+  <body>
+   <section class="product_card">
+     <img src="img/goods-can-big.png" alt="">
+     <div class="product_card_description">
+       <span class="subtitle">Корма</span>
+       <h3>СМЕСЬ&NoBreak;-&NoBreak;ДОБАВКА</h3>
+       <div class="tag_dark">
+         летучие мыши
+       </div>
+       <p>
+         Природные вещества повышают стрессоустойчивость, поддерживают иммунитет вашего питомца. Экстракт бессмертника<br>активизирует ряд гормонов и улучшает <br> общее состояние животного.
+       </p>
+
+       <div class="product_card_description_addit">
+         <div class="weight">
+           <span>Объём</span>
+           <span>0.5 ml</span>
+         </div>
+         <div class="usage">
+           <span>Применение</span>
+           <span>Добавка к еде</span>
+         </div>
+        <div class="buy_price">
+         <div class="primary_btn_dark">В корзину</div>
+         <span class="price">3500₽</span>
+       </div>
+     </div>
+   </section>
+   <section class="three_products">
+     <h2>похожие товары</h2>
+     <div class="three_products_cards">
+       <div class="three_products_card">
+         <img src="img/goods-can-red-gold.jpg" alt="">
+         <img class="heart" src="img/icn-heart.svg" alt="">
+         <span class="small_price">1500₽</span>
+         <h4>корм-сmecь</h4>
+         <div class="tag_light">змеи</div>
+       </div>
+
+       <div class="three_products_card">
+         <img src="img/goods-can-red.jpg" alt="">
+         <img class="heart" src="img/icn-heart.svg" alt="">
+         <span class="small_price">1500₽</span>
+         <h4>корм-сmecь</h4>
+         <div class="tag_light">единороги</div>
+       </div>
+
+       <div class="three_products_card">
+         <img src="img/goods-can-gold.jpg" alt="">
+         <img class="heart" src="img/icn-heart.svg" alt="">
+         <span class="small_price">1500₽</span>
+         <h4>корм-сmecь</h4>
+         <div class="tag_light">коты&nbsp&&nbspтигры</div>
+       </div>
+     </div>
+   </section>
+
+   <section class="banner_popular_products">
+     <div class="banner_popular_products_images">
+       <img src="img/moon.png" alt="">
+       <img src="img/text-open-me.svg" alt="">
+       <img src="img/can.svg" alt="">
+       <img src="img/text-moon.png" alt="">
+       <img src="img/collar.svg" alt="">
+     </div>
+     <div class="primary_btn_light">подробнее</div>
+   </section>
+
+   <section class="contacts">
+     <h3>КАК НАС НАЙТИ</h3>
+     <div class="map_and_working_hours">
+       <div id="map"></div>
+       <div class="adress_and_working_hours">
+         <span class="adress">
+           Цветной&nbsp;бульвар,<br>дом&nbsp;4,<br>Москва
+         </span>
+         <div class="working_hours">
+           <span class="working_hours_text">Время работы</span>
+           <span class="working_hours_time">10:00 - 22:00</span>
+         </div>
+       </div>
+     </div>
+   </section>
+
+   <footer>
+     <div class="footer_main_info">
+       <div class="">
+         <span>+7 (916) 333-85-85</span>
+         <span>bestia@gmail.com</span>
+         <span>Москва, Цветной бульвар, 4</span>
+       </div>
+       <div class="">
+        <img src="img/logo-bestia.svg" alt="">
+        <div class="social_icons">
+          <img src="img/icn-telegram.svg" alt="">
+           <img src="img/icn-fb.svg" alt="">
+           <img src="img/icn-inst.svg" alt="">
+          <img src="img/icn-youtube.svg" alt="">
+        </div>
+       </div>
+       <div class="">
+         <span>Вакансии</span>
+         <span>Популярные вопросы</span>
+         <span>Конфедитиальность</span>
+       </div>
+     </div>
+     <span class="bestia_copy">© 2020</span>
+   </footer>
+  </body>
+  <!--The div element for the map -->
+  <script>
+  function initMap() {
+    var uluru = {lat: 55.768088, lng: 37.622726};
+    var map = new google.maps.Map(
+        document.getElementById('map'), {
+          zoom: 15,
+          center: uluru,
+          styles: [
+          {
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#f5f5f5"
+              }
+            ]
+          },
+          {
+            "elementType": "labels.icon",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#616161"
+              }
+            ]
+          },
+          {
+            "featureType": "administrative.land_parcel",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#bdbdbd"
+              }
+            ]
+          },
+          {
+            "featureType": "poi",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#eeeeee"
+              }
+            ]
+          },
+          {
+            "featureType": "poi",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#757575"
+              }
+            ]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#e5e5e5"
+              }
+            ]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#9e9e9e"
+              }
+            ]
+          },
+          {
+            "featureType": "road",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#ffffff"
+              }
+            ]
+          },
+          {
+            "featureType": "road.arterial",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#757575"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#dadada"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#616161"
+              }
+            ]
+          },
+          {
+            "featureType": "road.local",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#9e9e9e"
+              }
+            ]
+          },
+          {
+            "featureType": "transit.line",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#e5e5e5"
+              }
+            ]
+          },
+          {
+            "featureType": "transit.station",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#eeeeee"
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#c9c9c9"
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#9e9e9e"
+              }
+            ]
+          }
+    ]});
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map,
+      icon: 'img/icn-map-pin.svg'
+    });
+  }
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEvzy3gF6LVwvwewI7oPFxa4jtaP3PabI&callback=initMap">
+  </script>
+  <script src="js/main.js"></script>
+</html>

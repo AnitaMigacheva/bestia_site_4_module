@@ -1,5 +1,4 @@
  header {
-  padding: 0 10%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -10,10 +9,12 @@
   align-content: flex-end;
   flex-direction: row;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
   z-index: 3;
+  padding: 4vh 10% ;
   padding-top: 4vh;
   position: fixed;
+  background-color: #0F0F0F;
 }
 .header_top_icons_right {
   display: flex;
