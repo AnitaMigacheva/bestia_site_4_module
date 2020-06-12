@@ -41,13 +41,19 @@
  /* ------------------BANNER------------------ */
 
 .banner_popular_products {
-  height: 50vh;
+  padding-top: 8%;
+  height: 30vh;
   width: 100%;
-  position: absolute;
-  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8%;
 }
 .banner_popular_products_images {
   display: flex;
+  margin: auto;
+  
   flex-direction: row;
   position: relative;
 }
@@ -57,4 +63,14 @@
 }
 .primary_btn_light {
   text-align: center;
+  margin-top: 3%;
+}
+
+@keyframes rotate {
+  from {
+
+  }
+  to {
+    transform: rotate(360);
+  }
 }
