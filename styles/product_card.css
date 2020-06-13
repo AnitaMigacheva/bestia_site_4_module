@@ -2,25 +2,22 @@
   background-color: var(--lightGray);
   display: flex;
   align-items: center;
-  margin-bottom: 10%;
-  height: 70vh;
+  margin-bottom: 8%;
+  height: 80vh;
   justify-content: center;
   width: 100%;
+  margin-top: 8%;
 }
 .product_card img {
-  width: 40%;
+  width: 46%;
+  padding-right: 4%;
 }
 .product_card h3 {
   color: black;
   padding: 2% 0 5%;
 }
-.product_card_description {
-  width: 30%;
-  padding-left: 2%;
-}
-
 .buy_price {
-  padding-top: 10%;
+  padding-top: 14%;
 }
 .buy_price span {
   font-size: 1.5em;
@@ -33,10 +30,27 @@
 .product_card_description p {
   padding-top: 8%;
 }
+.product_card_description {
+  padding-right: 8%;
+}
 .usage {
   padding-top: 2%;
 }
+.usage,
+.weight {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 70%;
+}
+.line {
+  display: inline-block;
+  border-bottom: 2px solid var(--gray);
+  height: 2px;
+  flex-grow: 2;
+  margin: 0 1em;
 
+}
 
  /* ------------------BANNER------------------ */
 
@@ -49,19 +63,25 @@
   display: flex;
   align-items: center;
   margin-bottom: 8%;
-  overflow: hidden;
   height: 53vh;
-
 }
 .banner_popular_products_images {
   display: flex;
   margin: auto;
-  width: 80%;
+  width: 90%;
   align-items: center;
   flex-direction: row;
   position: relative;
   justify-content: space-between;
 }
+.banner_popular_products_images:hover img {
+  mix-blend-mode: darken;
+
+}
+/* .banner_popular_products:hover {
+  background-color: var(--accentRed);
+  mix-blend-mode: multiply;
+} */
 .banner_popular_products_images img:nth-child(2) {
   position: absolute;
   left: 22%;
@@ -71,8 +91,11 @@
   width: 80vh;
   height: auto;
 }
+.banner_popular_products_images img:nth-child(2) {
+  animation: 20s rotate linear infinite;
+}
 .banner_popular_products_images img:nth-child(1) {
-  padding-right: 12%;
+  padding-right: 10%;
   align-self: center;
 }
 .primary_btn_light {
@@ -82,9 +105,9 @@
 
 @keyframes rotate {
   from {
-
+    transform: rotate(0deg);
   }
   to {
-    transform: rotate(360);
+    transform: rotate(360deg);
   }
 }

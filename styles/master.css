@@ -90,7 +90,7 @@ h4 {
   transition: 300ms ease all;
   font-size: 14px;
   background-color: black;
-  color: black;
+  color: white;
   letter-spacing: 0.1em;
   padding: 2em;
   cursor: pointer;
@@ -139,6 +139,7 @@ h4 {
   background: none;
   width: fit-content;
   border-radius: 20px;
+  font-size: 0.8em;
 }
 .tag_dark {
   border: 1px solid black;
