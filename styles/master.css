@@ -158,11 +158,11 @@ h4 {
   border: 1px solid white;
   color: white;
 }
-
 span.subtitle {
   color: var(--gray);
   font-size: 0.8em;
 }
+
 
 /* -----------------CARDS------------------ */
 
@@ -173,10 +173,6 @@ span.subtitle {
   height: 30%;
   width: 30%;
   position: relative;
-}
-.three_products h2,
-.two_productsh2 {
-  padding-bottom: 5%;
 }
 .three_products_card img,
 .two_products_card img {
@@ -194,13 +190,14 @@ span.subtitle {
 }
 .three_products h4,
 .two_products h4 {
-  padding: 6% 0 3%;
+  padding: 5% 0 2%;
 }
 .heart,
 .small_price {
   position: absolute;
 }
-.small_price {
+.three_products_card .small_price,
+.two_products_card .small_price {
   top: 70%;
   right: 8%;
   font-size: 20px;
@@ -210,17 +207,79 @@ span.subtitle {
 .two_products_card .heart {
   width: 2em;
   height: 2em;
+}
+.three_products_card .heart {
   left: 84%;
   top: 4%;
 }
+
 
 .two_products_card {
   width: 47%;
   height: 90%;
 }
+.two_products_card .heart {
+  left: 90%;
+  top: 4%;
+}
+.two_products_card .small_price {
+  left: 82%;
+  top: 70%;
+}
 .two_products_cards {
   height: 80%;
 }
-.two_products {
-  height: 40%;
+.two_products,
+.three_products {
+  margin-top: 10%;
+}
+.two_products h2,
+.three_products h2 {
+  padding-bottom: 4%;
+}
+
+
+/* ---------------------------SLIDER-------------------------------- */
+
+.swiper-button-next::after {
+  content: none;
+}
+.swiper-slide {
+  width: 88%;
+}
+.swiper-slide {
+  background-size: 68%;
+}
+.swiper-wrapper {
+  padding-bottom: 8%;
+}
+.big_items_slider .primary_btn_light {
+  margin-left: 8vw;
+  display: inline-block;
+}
+.big_items_slider {
+  position: relative;
+  margin-bottom: 12vw;
+  padding: 0 10%;
+}
+.big_items_slider p {
+  margin-left: 8vw;
+  color: white;
+  letter-spacing: 0.04em;
+  line-height: 140%;
+  padding-bottom: 3vw;
+}
+.big_items_slider h3 {
+  color: white;
+  margin-left: 3vw;
+  text-transform: uppercase;
+  padding-bottom: 2vw;
+}
+.swiper-button-prev.swiper-button-white img,
+.swiper-button-next.swiper-button-white img {
+  width: auto;
+  display: block;
+}
+.swiper-button-prev {
+  right: 40px;
 }

@@ -10,7 +10,7 @@ body {
  z-index: -1;
 }
 .header_info {
-  padding-top: 44vh;
+  padding: 44vh 8% 0;
   position: relative;
   width: 100%;
   height: 100vh;
@@ -33,6 +33,9 @@ body {
   position: absolute;
   top: 30vh;
   left: 20vw;
+}
+img.logo_grid {
+  padding: 6% 2% 0;
 }
 
 
@@ -180,49 +183,6 @@ div.items_menu_description:hover {
 }
 .about_animals .primary_btn_light {
   text-align: center;
-}
-
-
-/* ---------------------------SLIDER-------------------------------- */
-
-.swiper-button-next::after {
-  content: none;
-}
-.swiper-slide {
-    width: 88%;
-}
-.swiper-wrapper {
-  padding-bottom: 8%;
-}
-.big_items_slider .primary_btn_light {
-  margin-left: 8vw;
-  display: inline-block;
-}
-.big_items_slider {
-  position: relative;
-  margin-bottom: 12vw;
-  padding: 0 10%;
-}
-.big_items_slider p {
-  margin-left: 8vw;
-  color: white;
-  letter-spacing: 0.04em;
-  line-height: 140%;
-  padding-bottom: 3vw;
-}
-.big_items_slider h3 {
-  color: white;
-  margin-left: 3vw;
-  text-transform: uppercase;
-  padding-bottom: 2vw;
-}
-.swiper-button-prev.swiper-button-white img,
-.swiper-button-next.swiper-button-white img {
-  width: auto;
-  display: block;
-}
-.swiper-button-prev {
-  right: 40px;
 }
 
 

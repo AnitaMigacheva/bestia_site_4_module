@@ -49,8 +49,8 @@
   height: 2px;
   flex-grow: 2;
   margin: 0 1em;
-
 }
+
 
  /* ------------------BANNER------------------ */
 
@@ -76,12 +76,7 @@
 }
 .banner_popular_products_images:hover img {
   mix-blend-mode: darken;
-
 }
-/* .banner_popular_products:hover {
-  background-color: var(--accentRed);
-  mix-blend-mode: multiply;
-} */
 .banner_popular_products_images img:nth-child(2) {
   position: absolute;
   left: 22%;
