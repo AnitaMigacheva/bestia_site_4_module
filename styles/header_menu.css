@@ -58,6 +58,22 @@
 }
 
 
+@media (min-width: 300px) and (max-width: 375px) {
+  .logo_bestia {
+    background-size: contain;
+    width: 7em;
+  }
+  .header_top_icons {
+    padding: 6% 8%;
+  }
+  .icn_bag,
+  .icn_search {
+    background-size: 1.5em;
+    margin: 0;
+  }
+}
+
+
 /* -----------------BURGER MENU---------------------- */
 
 .burger {
