@@ -15,7 +15,22 @@
 .animal_description p {
   color: white;
 }
-span.care_level {
+.animal_features {
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.animal_feature span:nth-child(odd) {
+  color: var(--gray);
+  font-size: 0.6em;
+  padding-top: 0.5em;
+  letter-spacing: 0.08em;
+}
+.animal_feature span:nth-child(even) {
+  padding-top: 0.4em;
+  letter-spacing: 0.04em;
+}
+.animal_feature span.care_level {
   background: var(--lightGray);
   border-radius: 50%;
   color: black;
@@ -24,16 +39,7 @@ span.care_level {
   font-weight: bold;
   text-align: center;
   padding-top: 0.2em;
-}
-.animal_features {
-  padding-top: 2em;
-  display: flex;
-  flex-direction: column;
-}
-.animal_feature span:nth-child(even) {
-  color: var(--gray);
-  font-size: 0.8em;
-  padding-top: 0.5em;
+  font-size: 
 }
 .animal_feature {
   padding-top: 1em;
