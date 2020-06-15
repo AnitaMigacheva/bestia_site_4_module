@@ -212,8 +212,6 @@ span.subtitle {
   left: 84%;
   top: 4%;
 }
-
-
 .two_products_card {
   width: 47%;
   height: 90%;
@@ -281,6 +279,16 @@ span.subtitle {
 .swiper-slide img {
   width: 50%;
   max-width: 60%;
+  object-fit: contain;
+}
+.swiper-slide:nth-child(2) img {
+  width: 30%;
+  max-width: 40%;
+  object-fit: contain;
+}
+.swiper-slide:nth-child(3) img {
+  width: 30%;
+  max-width: 40%;
   object-fit: contain;
 }
 .swiper-slide .slider_text {
