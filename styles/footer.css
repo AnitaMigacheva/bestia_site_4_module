@@ -41,6 +41,32 @@ footer .social_icons img:not(:last-child) {
 }
 
 
-@media 
-
+@media (min-width: 300px) and (max-width: 375px) {
+  footer span {
+    font-size: 14px;
+  }
+  .footer_main_info {
+    flex-direction: column;
+  }
+  .footer_main_info div {
+    width: 100%;
+  }
+  .logo_and_icons {
+    width: 100%;
+    padding-top: 30vh;
+    position: absolute;
+  }
+  .bestia_copy {
+    margin: 14em auto 2em;
+  }
+  .footer_stuff {
+    padding-top: 10vw;
+  }
+  .cont_adress,
+  .footer_stuff span{
+    text-align: center;
+  }
+  .footer_main_info > div:last-child {
+    align-items: center;
+  }
 }

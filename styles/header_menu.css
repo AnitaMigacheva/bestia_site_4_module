@@ -71,6 +71,23 @@
     background-size: 1.5em;
     margin: 0;
   }
+  .burger-open + .header_top_icons_right .logo_bestia {
+    background-size: contain;
+    width: 7em;
+  }
+  .header_top_icons {
+    padding: 4% 8%;
+  }
+  .burger-open + .header_top_icons_right .icn_search,
+  .burger-open + .header_top_icons_right .icn_bag {
+    background-size: 1.5em;
+    margin: 0;
+  }
+
+  .menu_info {
+    visibility: hidden;
+  }
+
 }
 
 

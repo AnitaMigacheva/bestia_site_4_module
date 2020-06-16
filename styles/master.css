@@ -35,6 +35,13 @@ h2 {
 h3 {
   font-size: 50px;
 }
+
+@media (min-width: 300px) and (max-width: 375px)  {
+  h3 {
+    font-size:28px;
+  }
+}
+
 h4 {
   font-size: 22px;
 }
@@ -73,6 +80,7 @@ h4 {
   border: 1px solid white;
 }
 
+
 .primary_btn_dark {
   font-weight: bold;
   font-size: 14px;
@@ -110,6 +118,7 @@ h4 {
   width: 300px;
   border: 1px solid black;
 }
+
 
 .secondary_btn_light {
   font-weight: bold;
