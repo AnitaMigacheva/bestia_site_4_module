@@ -118,7 +118,48 @@ h3 {
   margin-left: -1em;
 }
 
-
 @media (min-width: 300px) and (max-width: 375px) {
-  
+  .animal_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .animal_shape img {
+    width: 90%;
+  }
+  .animal_shape .circle {
+    width: 86vw;
+    height: 86vw;
+  }
+  .animal_shape .cross {
+    width: 16em;
+    height: 16em;
+  }
+  .animal_wrapper {
+    padding-top: 28vh;
+  }
+  .animal_description h3 {
+     font-size: 28px;
+     margin-left: 0;
+  }
+  .animal_description p {
+    font-size: 14px;
+    padding-top: 1em;
+    padding-left: 8%;
+  }
+  .animal_features {
+    padding-left: 8%;
+  }
+  .subtitle {
+    padding-left: 8%;
+  }
+  .animal_description {
+    padding-left: 0;
+    padding-top: 6vh;
+  }
 }
