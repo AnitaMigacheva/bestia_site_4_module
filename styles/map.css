@@ -76,5 +76,9 @@
   }
   .contacts h3 {
     margin-bottom: 4vw;
+    margin-left: unset;
+  }
+  .contacts {
+    margin-top: 20vw;
   }
 }
