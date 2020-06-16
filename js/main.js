@@ -15,3 +15,9 @@ if (burger.className == 'burger burger-open') {
     page.classList.remove('noscroll')
   }
 })
+
+window.addEventListener('resize', function(event){
+  if (window.innerWidth <= 500) {
+    swiper.changeDirection("horizontal");
+  }
+});
