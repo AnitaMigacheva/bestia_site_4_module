@@ -8,12 +8,15 @@
   top: 2em;
 }
 .animal_description {
-  width: 30%;
-  padding-left: 6%;
+  padding-left: 10%;
 }
 .animal_description span,
 .animal_description p {
   color: white;
+}
+.animal_description p {
+  line-height: 130%;
+  letter-spacing: 0.04em;
 }
 .animal_features {
   padding-top: 2em;
@@ -31,15 +34,17 @@
   letter-spacing: 0.04em;
 }
 .animal_feature span.care_level {
-  background: var(--lightGray);
+  background: white;
   border-radius: 50%;
   color: black;
   width: 1.5em;
   height: 1.5em;
   font-weight: bold;
   text-align: center;
+  align-self: center;
   padding-top: 0.2em;
-  font-size: 
+  margin-top: 1%;
+  font-size: 1em;
 }
 .animal_feature {
   padding-top: 1em;
@@ -50,12 +55,26 @@
   flex-direction: column;
   padding-left: 1em;
 }
+
+
+.animal_shape {
+  position: relative;
+}
+.animal_wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
 .cross {
   position: absolute;
   width: 332px;
   height: 332px;
   z-index: -1;
-  left: 24%;
+  top: 38%;
 }
 .cross:hover {
   background-color: var(--accentRed);
@@ -66,6 +85,7 @@
   content: ' ';
   height: 40%;
   width: 120%;
+  align-self: center;
   background-color: #272727;
 }
 .cross::before {
@@ -76,8 +96,8 @@
 }
 .circle {
   z-index: -1;
-  left: 20%;
   position: absolute;
+  align-self: center;
   width: 23em;
   height: 23em;
   border-radius: 50%;
