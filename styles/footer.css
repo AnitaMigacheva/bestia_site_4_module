@@ -45,6 +45,9 @@ footer .social_icons img:not(:last-child) {
   footer span {
     font-size: 14px;
   }
+  footer {
+    padding: 24vw 10% 0;
+  }
   .footer_main_info {
     flex-direction: column;
   }
@@ -63,7 +66,7 @@ footer .social_icons img:not(:last-child) {
     padding-top: 10vw;
   }
   .cont_adress,
-  .footer_stuff span{
+  .footer_stuff span {
     text-align: center;
   }
   .footer_main_info > div:last-child {

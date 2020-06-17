@@ -34,6 +34,11 @@ body {
   top: 30vh;
   left: 20vw;
 }
+.menu-open + .header_info .all_you_pet_need_circle {
+  position: absolute;
+  z-index: 3;
+  filter: invert(100);
+}
 img.logo_grid {
   padding: 6% 2% 0;
 }
@@ -247,6 +252,7 @@ div.items_menu_description:hover {
   transition: 200ms ease;
 }
 
+
 @media (min-width: 300px) and (max-width: 375px) {
   .header_info h1 {
     font-size: 19vw;
@@ -274,6 +280,7 @@ div.items_menu_description:hover {
     position: absolute;
     z-index: -1;
   }
+
 
   .sixth_item,
   .fifth_item {
@@ -309,15 +316,15 @@ div.items_menu_description:hover {
   }
   .second_item::before {
     margin-bottom: 4%;
-    content: "успокаивающий напиток unic";
+    content: "СУМОЧКА WALK W";
   }
   .third_item::after {
     margin-top: 4%;
-    content: "успокаивающий напиток unic";
+    content: "МЯЧИК-КОГТЕТОЧКА";
   }
   .fourth_item::before {
     margin-bottom: 4%;
-    content: "успокаивающий напиток unic";
+    content: "СМЕСЬ-ДОБАВКА";
   }
   .first_item::after,
   .second_item::before,
@@ -338,7 +345,7 @@ div.items_menu_description:hover {
   }
   .second_item::before,
   .fourth_item::before {
-    top: -14%;
+    top: -8%;
   }
   .bestia_logo_feature {
     visibility: hidden;
@@ -358,6 +365,7 @@ div.items_menu_description:hover {
     line-height: 120%;
     padding-top: 4%;
   }
+
 
   .items_menu_grid_container div:hover {
     background-color: var(--extralightGray);
@@ -385,7 +393,7 @@ div.items_menu_description:hover {
 
 
   .about_animals {
-    height: 90vh;
+    height: 64vh;
     background: url(../img/animals-mobile.png) no-repeat center right;
     background-size: contain;
     text-align: center;
@@ -405,4 +413,60 @@ div.items_menu_description:hover {
     margin-top: 10%;
   }
 
+
+  .banner_lecture {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+    border-top: 30px solid #0F0F0F;
+    border-bottom: 30px solid #0F0F0F;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .banner_lecture_bg {
+    background-image: url(../img/banner-lecture-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #BC0000;
+    position: absolute;
+    height: 81vh;
+    z-index: -2;
+    width: 100%;
+  }
+
+
+  .banner_lecture_text_bott .secondary_btn_light {
+    top: 38vh;
+    position: absolute;
+  }
+  .banner_lecture span {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20vh;
+  }
+  .banner_lecture_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 80vh;
+  }
+  .banner_lecture_text_bott {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 10%;
+    bottom: 44vh;
+  }
+  .banner_lecture img {
+    display: block;
+    margin: auto;
+    width: 40vw;
+  }
 }
