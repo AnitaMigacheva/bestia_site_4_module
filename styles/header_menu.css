@@ -9,7 +9,7 @@
   align-content: flex-end;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
+  width: 100vw;
   z-index: 3;
   padding: 2% 10%;
   position: fixed;
@@ -192,4 +192,24 @@
   flex-direction: column;
   -webkit-box-align: start;
   align-items: flex-start;
+}
+
+
+@media (min-width: 300px) and (max-width: 375px) {
+  .menu-open {
+    padding-bottom: 46vw;
+  }
+  .menu-open ul {
+    z-index: 1;
+    width: 76%;
+    font-size: 13vw;
+    line-height: 0.9;
+    margin-bottom: 5vw;
+  }
+  .burger {
+    padding-right: 3em;
+  }
+  .menu {
+    width: 100vw;
+  }
 }

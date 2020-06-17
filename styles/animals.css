@@ -8,7 +8,7 @@
   top: 2em;
 }
 .animal_description {
-  padding-left: 10%;
+  padding-left: 12%;
 }
 .animal_description span,
 .animal_description p {
@@ -64,6 +64,12 @@
   position: relative;
   display: flex;
   justify-content: center;
+}
+.animal_shape:hover .circle,
+.animal_shape:hover .cross::after,
+.animal_shape:hover .cross::before {
+  transition: 300ms ease-in;
+  background: var(--accentRed);
 }
 .animal_wrapper {
   display: flex;
