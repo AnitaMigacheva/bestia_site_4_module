@@ -156,6 +156,22 @@ div.items_menu_description:hover {
 }
 
 
+
+
+img.all_you_pet_need_circle {
+  animation: rotate 20s linear infinite;
+}
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* ---------------------------ABOUT ANIMALS-------------------------------- */
 
 .about_animals {
