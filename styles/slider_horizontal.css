@@ -44,13 +44,15 @@
   object-fit: contain;
 }
 .swiper-slide:nth-child(2) img {
-  width: 30%;
+  width: 36%;
+  margin: 0 6%;
   max-width: 40%;
   object-fit: contain;
 }
 .swiper-slide:nth-child(3) img {
-  width: 30%;
-  max-width: 40%;
+  width: 36%;
+  margin: 0 6%;
+  max-width: 50%;
   object-fit: contain;
 }
 .swiper-slide .slider_text {
@@ -79,6 +81,7 @@
   letter-spacing: 0.04em;
   line-height: 140%;
   padding-bottom: 3vw;
+  max-width: 64%;
 }
 .big_items_slider h3 {
   color: white;

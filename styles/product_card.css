@@ -6,11 +6,12 @@
   height: 80vh;
   justify-content: center;
   width: 100%;
-  margin-top: 8%;
+  margin-top: 6%;
 }
 .product_card img {
   width: 46%;
   padding-right: 4%;
+  padding-top: 4%;
 }
 .product_card h3 {
   color: black;
