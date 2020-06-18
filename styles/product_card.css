@@ -138,5 +138,34 @@
     width: 36%;
     top: 3%;
   }
-
+  .product_card {
+    background-color: var(--lightGray);
+    display: flex;
+    align-items: center;
+    margin-bottom: 8%;
+    height: 80vh;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 6%;
+  }
+  .product_card img {
+    width: 94vw;
+    height: auto;
+    padding-right: 4%;
+    padding-top: 4%;
+  }
+  .product_card_description {
+    padding: 0 8%;
+  }
+ .product_card h3 {
+   color: black;
+   padding: inherit;
+  }
+  .product_card_description span.subtitle {
+    padding-left: 0;
+  }
+  .product_card_description .tag_dark {
+    margin-top: 3vw;
+  }
 }
