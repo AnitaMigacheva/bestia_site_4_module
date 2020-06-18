@@ -250,3 +250,51 @@ span.subtitle {
 .three_products h2 {
   padding-bottom: 4%;
 }
+
+
+@media (min-width: 300px) and (max-width: 375px) {
+  .two_products,
+  .three_products {
+    margin-top: 16%;
+  }
+  .three_products_cards,
+  .two_products_cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .three_products,
+  .two_products {
+    padding: 0 8%;
+  }
+  .two_products_card .small_price {
+    left: 76%;
+    top: 56%;
+  }
+  .two_products_card .heart {
+    left: 86%;
+    top: 4%;
+  }
+  .three_products_card .heart, .two_products_card .heart {
+    width: 1.6em;
+    height: 1.6em;
+  }
+  .three_products_card .small_price,
+  .two_products_card .small_price {
+    right: 5%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .three_products_card .small_price {
+    top: 66%;
+  }
+  .three_products_card,
+  .two_products_card {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    padding-bottom: 4vh;
+    width: 100%;
+    position: relative;
+  }
+}

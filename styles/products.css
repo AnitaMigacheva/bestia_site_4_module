@@ -19,3 +19,36 @@
 .big_items_slider {
   margin-top: 20vh;
 }
+
+@media (min-width: 300px) and (max-width: 375px) {
+  .banner_ingridients {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 0.04em;
+    line-height: 130%;
+    height: 70vh;
+    background-image: url(../img/banner-ing-mobile.jpg);
+    background-size: cover;
+    margin-top: 10%;
+    position: relative;
+    margin-bottom: 20vh;
+  }
+  .banner_ingridients p {
+    width: 80%;
+    padding-top: 14%;
+  }
+  .banner_ingridients::after {
+    content: "";
+    background: url(../img/all-your-pet-need.svg) no-repeat;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+  }
+}
