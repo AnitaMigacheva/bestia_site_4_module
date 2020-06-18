@@ -91,13 +91,13 @@ img.logo_grid {
 }
 .third_item {
   grid-area: third_item;
-  background: url(../img/menu-toy.jpg) no-repeat center center;
+  background: url(../img/menu-toy.png) no-repeat center center;
   background-color: var(--extralightGray);
   background-size: 90%;
 }
 .fourth_item {
   grid-area: fourth_item;
-  background: url(../img/menu-food.jpg) no-repeat center center ;
+  background: url(../img/menu-food.png) no-repeat center center ;
   background-color: var(--extralightGray);
   background-size: cover;
 }
@@ -109,7 +109,7 @@ img.logo_grid {
 }
 .sixth_item {
   grid-area: sixth_item;
-  background: url(../img/menu-collar.jpg) no-repeat center top;
+  background: url(../img/menu-collar.png) no-repeat center top;
   background-color: var(--extralightGray);
   background-size: 110%;
 }
@@ -405,7 +405,7 @@ div.items_menu_description:hover {
   }
   .about_animals h2 {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 8vh;
     text-align: center;
     padding-top: 20%;
   }

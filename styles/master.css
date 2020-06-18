@@ -29,6 +29,9 @@ body {
 .wrapper {
   padding: 0 10%;
 }
+a {
+  text-decoration: none;
+}
 h2 {
   font-size: 70px;
 }

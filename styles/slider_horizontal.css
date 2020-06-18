@@ -160,6 +160,7 @@
     letter-spacing: 0.04em;
     line-height: 140%;
     padding-bottom: 8vw;
+    max-width: 100%;
   }
   .primary_btn_light {
     font-weight: bold;
