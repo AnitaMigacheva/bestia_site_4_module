@@ -297,4 +297,19 @@ span.subtitle {
     width: 100%;
     position: relative;
   }
+  .primary_btn_light {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    display: inline;
+    letter-spacing: 0.1em;
+    padding: 2em;
+    margin: 8vw 8%;
+    text-align: center;
+    border: 1px solid white;
+    width: 86%;
+ }
+
+
 }

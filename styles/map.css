@@ -84,4 +84,9 @@
   .contacts {
     margin-top: 12vw;
   }
+  .contacts h2 {
+    color: white;
+    padding-left: 8%;
+    margin-bottom: 2vw;
+  }
 }
