@@ -150,22 +150,23 @@
     margin-top: 6%;
   }
   .product_card img {
-    width: 94vw;
+    width: 96vw;
     height: auto;
     padding-right: 4%;
     padding-top: 4%;
   }
   .product_card_description {
-    padding: 0 8%;
+    padding: 8%;
   }
  .product_card h3 {
    color: black;
-   padding: inherit;
+   padding-left: 8%;
+   padding-bottom: 3vw;
   }
   .product_card_description span.subtitle {
     padding-left: 0;
   }
-  .product_card_description .tag_dark {
+  .product_card_description div.tag_dark {
     margin-top: 3vw;
   }
 }
