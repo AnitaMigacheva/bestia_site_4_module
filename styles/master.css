@@ -302,7 +302,7 @@ span.subtitle {
     font-size: 14px;
     color: white;
     text-transform: uppercase;
-    display: inline;
+    display: inline-block;
     letter-spacing: 0.1em;
     padding: 2em;
     margin: 8vw 8%;

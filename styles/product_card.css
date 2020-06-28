@@ -134,7 +134,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 8%;
-    height: 80vh;
+    height: 100vh;
     justify-content: center;
     width: 100%;
     flex-direction: column;
@@ -144,7 +144,8 @@
     width: 96vw;
     height: auto;
     padding-right: 0;
-    margin-top: 10vh;
+    margin-top: 0;
+    padding-top: 0;
   }
   .product_card_description {
     padding: 8%;
@@ -160,23 +161,11 @@
   .product_card_description div.tag_dark {
     margin-top: 3vw;
   }
-  .primary_btn_light {
-    font-weight: bold;
-    font-size: 14px;
-    color: white;
-    text-transform: uppercase;
-    display: inline-block;
-    letter-spacing: 0.1em;
-    padding: 2em;
-    margin: 8vw 8%;
-    text-align: center;
-    border: 1px solid white;
-    width: 84%;
-  }
   .product_card .weight {
-    padding-top: 8%;
+    padding-top: 9%;
   }
-  .usage, .weight {
+  .usage,
+  .weight {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -201,7 +190,7 @@
     display: inline-block;
     letter-spacing: 0.1em;
     padding: 2em;
-    margin: 0 auto 12vh;
+    margin: 0 auto;
     width: 100%;
     text-align: center;
     border: 1px solid black;
